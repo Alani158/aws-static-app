@@ -28,11 +28,11 @@ export default function Footer() {
             alt="Logo"
             className="sm:h-8 h-6   cursor-pointer"
           />
-          <img
+          {/* <img
             src="lasticon.png"
             alt="Logo"
             className="sm:h-8 h-6   cursor-pointer"
-          />
+          /> */}
         </div>
         <div className="text-center">
           {" "}

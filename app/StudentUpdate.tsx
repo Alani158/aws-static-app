@@ -6,7 +6,7 @@ export default function StudentUpdate() {
   return (
     <div className=" w-full mt-4">
       <div className="bg-[#FFF6F5] pb-10  mx-auto w-[96%] border-[#FE5E55] border-[1px]">
-        <h1 className="text-center text-4xl">Student Updates</h1>
+        <h1 className="text-center text-4xl pt-4">Student Updates</h1>
         <div className="flex gap-10  w-full flex-col mt-4 ">
           <div className="sm:flex justify-center gap-10   w-[80%] mx-auto px-10">
             <div className="sm:w-[30%] w-[100%]">
@@ -24,7 +24,7 @@ export default function StudentUpdate() {
                 into its culture, language, and history. Dive into her story to
                 uncover her experiences and learnings.{" "}
               </p>
-              <button className="bg-[#FE5E55] rounded-lg px-2 py-4 text-sm sm:text-2xl text-white w-[80%] sm:w-[50%] mt-6">
+              <button className="bg-[#FE5E55] rounded-lg px-2 py-4 text-sm sm:text-2xl cursor-pointer transition-all sm:hover:w-[52%]  hover:w-[83%] hover:py-5  text-white w-[80%] sm:w-[50%] mt-6">
                 <p className="text-center">DISCOVER MORE</p>
               </button>
             </div>
@@ -45,7 +45,7 @@ export default function StudentUpdate() {
                 into its culture, language, and history. Dive into her story to
                 uncover her experiences and learnings.{" "}
               </p>
-              <button className="bg-[#FE5E55] rounded-lg px-2 py-4 text-sm sm:text-2xl text-white w-[80%] sm:w-[50%] mt-6">
+              <button className="bg-[#FE5E55] rounded-lg px-2 py-4 text-sm sm:text-2xl cursor-pointer transition-all sm:hover:w-[52%]  hover:w-[83%] hover:py-5  text-white w-[80%] sm:w-[50%] mt-6">
                 <p className="text-center">DISCOVER MORE</p>
               </button>
             </div>
@@ -66,7 +66,7 @@ export default function StudentUpdate() {
                 into its culture, language, and history. Dive into her story to
                 uncover her experiences and learnings.{" "}
               </p>
-              <button className="bg-[#FE5E55] rounded-lg px-2 py-4 text-sm sm:text-2xl text-white w-[80%] sm:w-[50%] mt-6">
+              <button className="bg-[#FE5E55] rounded-lg px-2 py-4 text-sm sm:text-2xl cursor-pointer transition-all sm:hover:w-[52%]  hover:w-[83%] hover:py-5  text-white w-[80%] sm:w-[50%] mt-6">
                 <p className="text-center">DISCOVER MORE</p>
               </button>
             </div>

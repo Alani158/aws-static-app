@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="w-full h-screen ">
       <div className="w-full ">
-        <div className="bg-[#141414] py-5 ">
+        <div className="bg-[#141414] w-full  py-5  fixed">
           <h1 className="text-3xl font-bold pl-10 text-white ">
             Madison School District
           </h1>
@@ -14,7 +14,7 @@ export default function Home() {
         <img
           src={firstbackground.src}
           loading="lazy"
-          className=" bg-red w-full mx-auto h-[500px]"
+          className=" bg-red w-full mx-auto h-screen"
           alt="backgroungimg"
         />
       </div>
@@ -44,7 +44,7 @@ export default function Home() {
             </p>
             <div className="w-full flex justify-center ">
               {" "}
-              <button className="bg-[#FE5E55] rounded-lg px-2 py-4 text-sm sm:text-3xl text-white w-[80%] sm:w-[50%] mt-6">
+              <button className="bg-[#FE5E55] rounded-lg px-2 py-4 cursor-pointer transition-all sm:hover:w-[52%]  hover:w-[83%] hover:py-5 text-sm sm:text-3xl text-white w-[80%] sm:w-[50%] mt-6">
                 <p className="text-center">
                   Can't make it to the gala? Support Online!
                 </p>
