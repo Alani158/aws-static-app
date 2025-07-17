@@ -7,7 +7,7 @@ export default function Home() {
     <div className="w-full h-screen ">
       <div className="w-full ">
         <div className="bg-[#141414] w-full  py-5  fixed">
-          <h1 className="text-3xl font-bold sm:pl-10  text-white ">
+          <h1 className="sm:text-3xl text-lg font-bold sm:pl-10 pl-2 text-white  ">
             Madison School District
           </h1>
         </div>
